@@ -1,0 +1,113 @@
+
+                    J E S 2  J O B  L O G  --  S Y S T E M  2 9 6 4  --  N O D E  S V S C J E S 2        
+
+  
+ 15.52.50 JOB05247 ---- WEDNESDAY, 23 JUN 2021 ----
+ 15.52.50 JOB05247  IRR010I  USERID KC03B25  IS ASSIGNED TO THIS JOB.
+ 15.52.50 JOB05247  ICH70001I KC03B25  LAST ACCESS AT 15:52:03 ON WEDNESDAY, JUNE 23, 2021
+ 15.52.50 JOB05247  $HASP373 KC03B25A STARTED - INIT 2    - CLASS A        - SYS 2964
+ 15.52.50 JOB05247  $HASP395 KC03B25A ENDED - RC=0000
+
+ ------ JES2 JOB STATISTICS ------
+
+
+   23 JUN 2021 JOB EXECUTION DATE
+
+
+            32 CARDS READ
+
+
+            84 SYSOUT PRINT RECORDS
+
+
+             0 SYSOUT PUNCH RECORDS
+
+
+             9 SYSOUT SPOOL KBYTES
+
+
+          0.00 MINUTES EXECUTION TIME
+ !! END OF JES SPOOL FILE !!
+        1 //KC03B25A JOB ,'N. FLORES',MSGCLASS=H                                  JOB05247
+        2 //JSTEP01  EXEC PGM=ASSIST                                                      
+        3 //STEPLIB  DD DSN=KC00NIU.ASSIST.LOADLIB,DISP=SHR                               
+        4 //SYSPRINT DD SYSOUT=*                                                          
+        5 //SYSIN    DD *                                                                 
+        6 //                                                                              
+ !! END OF JES SPOOL FILE !!
+ ICH70001I KC03B25  LAST ACCESS AT 15:52:03 ON WEDNESDAY, JUNE 23, 2021
+ IEFA111I KC03B25A IS USING THE FOLLOWING JOB RELATED SETTINGS:
+          SWA=ABOVE,TIOT SIZE=32K,DSENQSHR=DISALLOW,GDGBIAS=JOB
+ IEF236I ALLOC. FOR KC03B25A JSTEP01
+ IGD103I SMS ALLOCATED TO DDNAME STEPLIB
+ IEF237I JES2 ALLOCATED TO SYSPRINT
+ IEF237I JES2 ALLOCATED TO SYSIN
+ IEF142I KC03B25A JSTEP01 - STEP WAS EXECUTED - COND CODE 0000
+ IGD104I KC00NIU.ASSIST.LOADLIB                       RETAINED,  DDNAME=STEPLIB 
+ IEF285I   KC03B25.KC03B25A.JOB05247.D0000102.?         SYSOUT        
+ IEF285I   KC03B25.KC03B25A.JOB05247.D0000101.?         SYSIN         
+ IEF373I STEP/JSTEP01 /START 2021174.1552
+ IEF032I STEP/JSTEP01 /STOP  2021174.1552 
+         CPU:     0 HR  00 MIN  00.00 SEC    SRB:     0 HR  00 MIN  00.00 SEC    
+         VIRT:   584K  SYS:   244K  EXT:        0K  SYS:    11296K
+         ATB- REAL:                  1056K  SLOTS:                     0K
+              VIRT- ALLOC:      13M SHRD:       0M
+ IEF375I  JOB/KC03B25A/START 2021174.1552
+ IEF033I  JOB/KC03B25A/STOP  2021174.1552 
+         CPU:     0 HR  00 MIN  00.00 SEC    SRB:     0 HR  00 MIN  00.00 SEC    
+ !! END OF JES SPOOL FILE !!
+
+ *** ASSIST 4.0/A2-05/15/82  470/V7A/0:OS/VS2  INS=SDFP7/X=BGHO, CHECK/TRC/=1180, OPTS=CDKMPR FROM PENN ST*NIU COMPSCI*LT            
+
+                                                                                                                                     
+
+                                                                                                                PAGE    1            
+
+   LOC  OBJECT CODE    ADDR1 ADDR2  STMT   SOURCE STATEMENT                                                                          
+                                       1 *****************************************************************                           
+                                       2 *                                                               *                           
+                                       3 *  CSCI 360               ASSIGNMENT 3             SUMMER 2021  *                           
+                                       4 *                                                               *                           
+                                       5 *  DEVELOPER NAME: Noah Flores                                  *                           
+                                       6 *  DATE DUE:  06/28/2021                                        *                           
+                                       7 *                                                               *                           
+                                       8 * Declare two fullword variables and store them into two        *                           
+                                       9 * registers. Then subtract them from each other.                *                           
+                                      10 *                                                               *                           
+                                      11 *****************************************************************                           
+                                      12 *        COL. 10                                                                            
+                                      13 *        |     COL. 16                                                                      
+                                      14 *        |     |                                                                            
+                                      15 *        v     v                                                                            
+ 000000                               16 ASSIGN3A     CSECT                                                                          
+ 000000                               17          USING ASSIGN3A,15     ESTABLISH ADDRESSABILITY ON REG 15                           
+ 000000 5860 F014            00014    18          L     6,FIRST         LOAD FIRST INTO REG6                                         
+ 000004 5880 F018            00018    19          L     8,SECOND        LOAD SECOND INTO REG8                                        
+ 000008 1B68                          20          SR    6,8            SUBTRACT 8 FROM 6                                             
+ 00000A E160 0000 0000 00000          21          XDUMP ,      DUMP CONTENTS OF ALL 16 REGS                                          
+ 000010 07FE                          22          BCR   B'1111',14  UNCONDITIONAL RETURN TO CALLER (OS)                              
+ 000014 000000AD                      23 FIRST    DC    F'173'                                                                       
+ 000018 0000005D                      24 SECOND   DC    F'93'                                                                        
+                                      25          END   ASSIGN3A                                                                     
+
+ ***  NO   STATEMENTS FLAGGED -  NO   WARNINGS,  NO   ERRORS                                                                         
+
+ *** DYNAMIC CORE AREA USED:  LOW:     580 HIGH:     364 LEAVING:  492624 FREE BYTES. AVERAGE:       36 BYTES/STMT ***               
+
+ *** ASSEMBLY TIME =    0.000 SECS,    26000 STATEMENTS/SEC ***                                                                      
+
+ *** PROGRAM EXECUTION BEGINNING - ANY OUTPUT BEFORE EXECUTION TIME MESSAGE IS PRODUCED BY USER PROGRAM ***                          
+
+ BEGIN XSNAP - CALL     1 AT E0000010 USER REGISTERS                                                                                 
+
+  REGS 0-7      F4F4F4F4    F4F4F4F4    F4F4F4F4    F4F4F4F4    F4F4F4F4    F4F4F4F4    00000050    F4F4F4F4                         
+  REGS 8-15     0000005D    F4F4F4F4    F4F4F4F4    F4F4F4F4    F4F4F4F4    00000020    FFFE7960    00000000                         
+
+                                                                                                                                     
+
+ *** EXECUTION TIME =    0.000 SECS.         5 INSTRUCTIONS EXECUTED -     5000 INSTRUCTIONS/SEC ***                                 
+
+ *** FIRST CARD NOT READ: NO CARDS READ:FILE UNOPENED                                                                                
+
+ *** AM004 - NORMAL USER TERMINATION BY RETURN ***                                                                                   
+ !! END OF JES SPOOL FILE !!

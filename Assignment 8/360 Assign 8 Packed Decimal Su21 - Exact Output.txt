@@ -1,0 +1,296 @@
+                                                  NORTHERN ILLINOIS NATIONAL BANK                                         PAGE:    1
+                                                EMPLOYEE SEMI-MONTHLY PAYROLL REPORT                                                
+
+EMPLOYEE   EMPLOYEE                     HOURLY     HOURS            EMPLOYEE    EMPLOYEE FEDERAL    EMPLOYEE STATE          EMPLOYEE
+ID         NAME                            PAY    WORKED           GROSS PAY         WITHHOLDING       WITHHOLDING           NET PAY
+--------   -------------------------   -------   -------     ---------------     ---------------   ---------------   ---------------
+
+52-3-45245  JOAN TOWER                  $15.25     80.50           $1,722.75             $262.72            $54.96         $1,405.07
+
+03-4-56322  WOLFGANG AMADEUS MOZART     $19.00     80.75           $1,547.69             $236.02            $49.37         $1,262.30
+
+34-0-32233  RICHARD STRAUSS             $10.29     80.00           $1,045.97             $159.51            $33.37           $853.09
+
+16-4-65120  AMY BEACH                   $22.00     77.00           $2,579.16             $393.32            $82.28         $2,103.56
+
+76-5-60023  ETHEL SMYTH                 $23.75     28.25             $710.64             $108.37            $22.67           $579.60
+
+23-8-70322  PETER ILYICH TCHAIKOVSKY    $22.95     80.50           $1,826.23             $278.50            $58.26         $1,489.47
+
+04-9-66277  ANTON BRUCKNER              $23.20     78.67           $2,044.58             $311.80            $65.22         $1,667.56
+
+02-3-45245  FLORENCE PRICE              $15.25     80.50           $1,802.75             $274.92            $57.51         $1,470.32
+
+13-4-56322  CLAUDE DEBUSSY              $19.00     80.77           $1,546.85             $235.89            $49.34         $1,261.62
+
+34-0-32233  JUDITH WEIR                 $10.29     80.00           $1,045.97             $159.51            $33.37           $853.09
+
+16-4-65120  LUDWIG VAN BEETHOVEN        $22.00     80.00           $2,645.16             $403.39            $84.38         $2,157.39
+
+06-5-60023  JOHANN SEBASTIAN BACH       $23.75     28.25             $707.64             $107.92            $22.57           $577.15
+
+23-8-70322  AARON COPLAND               $22.95     80.50           $1,826.23             $278.50            $58.26         $1,489.47
+
+94-9-66277  CHARLES IVES                $20.20     78.67           $1,798.57             $274.28            $57.37         $1,466.92
+
+02-3-45245  SHULAMIT RAN                $15.25     80.50           $1,702.75             $259.67            $54.32         $1,388.76
+
+13-4-56322  ARTHUR HONEGGER             $19.00     80.75           $1,547.69             $236.02            $49.37         $1,262.30
+
+34-0-32233  NADIA BOULANGER             $10.29     80.00           $1,046.97             $159.66            $33.40           $853.91
+
+                                                  NORTHERN ILLINOIS NATIONAL BANK                                         PAGE:    2
+                                                EMPLOYEE SEMI-MONTHLY PAYROLL REPORT                                                
+
+EMPLOYEE   EMPLOYEE                     HOURLY     HOURS            EMPLOYEE    EMPLOYEE FEDERAL    EMPLOYEE STATE          EMPLOYEE
+ID         NAME                            PAY    WORKED           GROSS PAY         WITHHOLDING       WITHHOLDING           NET PAY
+--------   -------------------------   -------   -------     ---------------     ---------------   ---------------   ---------------
+
+16-4-65120  MAX REGER                   $22.00     80.00           $2,645.16             $403.39            $84.38         $2,157.39
+
+76-5-60023  FRANZ SCHMIDT               $23.75     28.25             $707.64             $107.92            $22.57           $577.15
+
+03-8-70322  WILLIAM SCHUMAN             $22.95     80.50           $1,826.23             $278.50            $58.26         $1,489.47
+
+98-9-96277  FELIX MENDELSSOHN           $20.20     78.67           $1,798.57             $274.28            $57.37         $1,466.92
+
+52-3-77245  FRANZ SCHUBERT              $15.25     80.50           $1,702.75             $259.67            $54.32         $1,388.76
+
+03-5-66322  ROBERT SCHUMANN             $19.00     80.75           $1,547.69             $236.02            $49.37         $1,262.30
+
+04-0-32233  DMITRI SCHOSTAKOWITSCH     $330.29     80.00          $26,645.97           $4,063.51           $850.01        $21,732.45
+
+15-6-45120  JOHANNES BRAHMS             $22.00     80.00           $2,645.16             $403.39            $84.38         $2,157.39
+
+76-5-60023  MODEST MUSSORGSKY           $23.75     28.25             $707.64             $107.92            $22.57           $577.15
+
+23-3-20322  JOSEPH HAYDN                $22.95     80.50           $1,826.23             $278.50            $58.26         $1,489.47
+
+94-9-66327  ANTON WEBERN                $20.20     78.67           $1,798.57             $274.28            $57.37         $1,466.92
+
+02-5-45245  CLAUDIO MONTEVERDI          $33.33     80.20           $3,148.19             $480.10           $100.43         $2,567.66
+
+03-4-56322  JEAN SIBELIUS               $19.00     80.75           $1,547.69             $236.02            $49.37         $1,262.30
+
+34-4-57233  ARNOLD SCHOENBERG           $10.29     80.00           $1,025.97             $156.46            $32.73           $836.78
+
+16-5-65120  MICHAEL TIPPETT             $22.00     80.00           $2,645.16             $403.39            $84.38         $2,157.39
+
+70-0-56523  RICHARD WAGNER              $23.75     28.25             $707.64             $107.92            $22.57           $577.15
+
+23-8-78794  FREDERIC CHOPIN             $22.95     79.50           $2,256.28             $344.08            $71.98         $1,840.22
+
+                                                  NORTHERN ILLINOIS NATIONAL BANK                                         PAGE:    3
+                                                EMPLOYEE SEMI-MONTHLY PAYROLL REPORT                                                
+
+EMPLOYEE   EMPLOYEE                     HOURLY     HOURS            EMPLOYEE    EMPLOYEE FEDERAL    EMPLOYEE STATE          EMPLOYEE
+ID         NAME                            PAY    WORKED           GROSS PAY         WITHHOLDING       WITHHOLDING           NET PAY
+--------   -------------------------   -------   -------     ---------------     ---------------   ---------------   ---------------
+
+94-9-66277  MICHAEL HAYDN               $20.20     78.67           $1,798.57             $274.28            $57.37         $1,466.92
+
+02-3-45245  BENJAMIN BRITTEN            $15.25     80.50           $1,702.75             $259.67            $54.32         $1,388.76
+
+13-4-56322  ANTONIO VIVALDI             $19.00     80.75           $1,547.69             $236.02            $49.37         $1,262.30
+
+34-3-24867  JOHANN STRAUSS II          $810.29     80.00          $65,045.97           $9,919.51         $2,074.97        $53,051.49
+
+06-4-65178  ANTONIN DVORAK              $22.00     80.00           $2,645.16             $403.39            $84.38         $2,157.39
+
+09-9-78023  ALBAN BERG                  $23.75     28.25             $707.64             $107.92            $22.57           $577.15
+
+03-8-70322  FRANZ LISZT                 $22.95     80.50           $1,826.23             $278.50            $58.26         $1,489.47
+
+94-6-78677  EDWARD ELGAR                $20.20     78.67           $1,798.57             $274.28            $57.37         $1,466.92
+
+52-3-86785  DAVID DIAMOND               $15.25     80.50           $1,702.75             $259.67            $54.32         $1,388.76
+
+14-3-42322  FANNY MENDELSSOHN           $19.00     80.75           $1,547.69             $236.02            $49.37         $1,262.30
+
+04-0-37673  GIUSEPPE VERDI              $10.29     80.00           $1,045.97             $159.51            $33.37           $853.09
+
+16-4-65120  MAX BRUCH                   $22.00     80.00           $2,645.16             $403.39            $84.38         $2,157.39
+
+06-5-34545  HILDEGARD VON BINGEN       $723.75     28.25          $20,482.64           $3,123.60           $653.40        $16,705.64
+
+23-8-45342  DIETRICH BUXTEHUDE          $22.95     80.50           $1,826.23             $278.50            $58.26         $1,489.47
+
+34-4-66277  RALPH VAUGHAN WILLIAMS      $20.20     78.67           $1,798.57             $274.28            $57.37         $1,466.92
+
+52-3-47867  FRANZ ABT                   $15.25     77.53           $1,140.45             $173.92            $36.38           $930.15
+
+03-7-87632  FRANCESCA CACCINI           $19.00     80.75           $1,547.69             $236.02            $49.37         $1,262.30
+
+                                                  NORTHERN ILLINOIS NATIONAL BANK                                         PAGE:    4
+                                                EMPLOYEE SEMI-MONTHLY PAYROLL REPORT                                                
+
+EMPLOYEE   EMPLOYEE                     HOURLY     HOURS            EMPLOYEE    EMPLOYEE FEDERAL    EMPLOYEE STATE          EMPLOYEE
+ID         NAME                            PAY    WORKED           GROSS PAY         WITHHOLDING       WITHHOLDING           NET PAY
+--------   -------------------------   -------   -------     ---------------     ---------------   ---------------   ---------------
+
+34-0-32233  ENGELBERT HUMPERDINCK       $10.29     80.00           $1,045.97             $159.51            $33.37           $853.09
+
+16-4-65120  BORIS BLACHER               $22.00     80.00           $2,645.16             $403.39            $84.38         $2,157.39
+
+76-5-60023  PAUL HINDEMITH              $23.75     28.25             $707.64             $107.92            $22.57           $577.15
+
+23-8-70322  BARBARA STROZZI             $22.95     80.50           $1,826.23             $278.50            $58.26         $1,489.47
+
+04-9-66277  KURT WEILL                  $20.20     78.67           $1,798.57             $274.28            $57.37         $1,466.92
+
+52-3-45245  CLARA SCHUMANN              $15.25     80.50           $1,702.75             $259.67            $54.32         $1,388.76
+
+13-4-56322  JOHANN ANTON ANDRE          $19.00     80.75           $1,547.69             $236.02            $49.37         $1,262.30
+
+34-0-32233  CHRISTOPH WILLIBALD GLUCK   $10.29     80.00           $1,045.97             $159.51            $33.37           $853.09
+
+16-4-65120  AUGUST BUNGERT              $22.00     80.00           $2,645.16             $403.39            $84.38         $2,157.39
+
+06-5-60023  REINER BREDEMEYER           $23.75     28.25             $707.64             $107.92            $22.57           $577.15
+
+03-8-70322  LOUISE FARENC               $22.95     80.50           $1,893.73             $288.79            $60.41         $1,544.53
+
+04-9-66277  HANS PFITZNER               $20.20     78.67           $1,798.57             $274.28            $57.37         $1,466.92
+
+02-3-45245  GIOVANNI HENRICO ALBINONI   $15.25     80.50           $1,779.05             $271.31            $56.75         $1,450.99
+
+13-9-67978  MICHAEL VON BIEL            $19.00     80.75           $1,543.15             $235.33            $49.23         $1,258.59
+
+36-7-65233  JOHANN LUDWIG BACH          $10.29     80.00           $1,445.75             $220.48            $46.12         $1,179.15
+
+15-6-56760  TERESA CARRENO              $22.00     80.56           $1,916.48             $292.26            $61.14         $1,563.08
+
+76-560023  WOLDEMAR BARGIEL            $23.75     28.25             $707.64             $107.92            $22.57           $577.15
+
+                                                  NORTHERN ILLINOIS NATIONAL BANK                                         PAGE:    5
+                                                EMPLOYEE SEMI-MONTHLY PAYROLL REPORT                                                
+
+EMPLOYEE   EMPLOYEE                     HOURLY     HOURS            EMPLOYEE    EMPLOYEE FEDERAL    EMPLOYEE STATE          EMPLOYEE
+ID         NAME                            PAY    WORKED           GROSS PAY         WITHHOLDING       WITHHOLDING           NET PAY
+--------   -------------------------   -------   -------     ---------------     ---------------   ---------------   ---------------
+
+23-8-70322  ANDRZEJ PANUFNIK            $22.95     80.50           $1,826.23             $278.50            $58.26         $1,489.47
+
+94-9-66277  EDVARD GRIED                $20.20     78.67           $1,798.57             $274.28            $57.37         $1,466.92
+
+08-7-65245  WALTER BRAUNFELS            $15.25     80.50           $1,702.75             $259.67            $54.32         $1,388.76
+
+13-9-76322  ISABELLA LEONARDA           $19.00     80.75           $1,547.69             $236.02            $49.37         $1,262.30
+
+34-0-35653  CAMILLE SAINT-SAENS         $10.29     80.00           $1,665.97             $254.06            $53.14         $1,358.77
+
+16-4-87620  GEORGES BIZET               $22.00     80.00           $2,645.16             $403.39            $84.38         $2,157.39
+
+79-6-79023  HECTOR BERLIOZ              $23.75     28.25           $1,307.34             $199.37            $41.70         $1,066.27
+
+07-8-60322  GABRIEL FAURE               $22.95     80.50           $2,489.91             $379.71            $79.43         $2,030.77
+
+94-4-52245  MAURICE RAVEL               $20.20     78.67           $1,798.57             $274.28            $57.37         $1,466.92
+
+52-3-45245  CHARLES GOUNOD              $15.25     80.50           $1,701.29             $259.45            $54.27         $1,387.57
+
+03-7-86322  ROXANNA PANUFNIK            $19.00     80.74           $1,293.00             $197.18            $41.25         $1,054.57
+
+04-0-32233  GIACOMO MEYERBEER           $10.29     80.00           $1,045.97             $159.51            $33.37           $853.09
+
+16-4-65120  ERIK SATIE                 $122.00     80.00          $10,645.16           $1,623.39           $339.58         $8,682.19
+
+76-4-55023  KARLHEINZ STOCKHAUSEN       $23.75     28.25           $1,071.14             $163.35            $34.17           $873.62
+
+03-8-70345  FRANCIS POULENC            $345.95     78.65          $26,590.92           $4,055.12           $848.25        $21,687.55
+
+94-9-66277  JEAN-PHILIPPE RAMEAU        $20.20     75.67           $1,737.97             $265.04            $55.44         $1,417.49
+
+52-3-45245  CECILE CHAMINADE            $15.25     80.50           $1,702.75             $259.67            $54.32         $1,388.76
+
+                                                  NORTHERN ILLINOIS NATIONAL BANK                                         PAGE:    6
+                                                EMPLOYEE SEMI-MONTHLY PAYROLL REPORT                                                
+
+EMPLOYEE   EMPLOYEE                     HOURLY     HOURS            EMPLOYEE    EMPLOYEE FEDERAL    EMPLOYEE STATE          EMPLOYEE
+ID         NAME                            PAY    WORKED           GROSS PAY         WITHHOLDING       WITHHOLDING           NET PAY
+--------   -------------------------   -------   -------     ---------------     ---------------   ---------------   ---------------
+
+13-4-56322  CESAR FRANCK                $19.00     80.75           $1,547.69             $236.02            $49.37         $1,262.30
+
+34-0-32233  HANS ZIMMER                 $10.29     80.00           $1,045.97             $159.51            $33.37           $853.09
+
+16-4-65120  PIERRE BOULEZ               $27.52      4.00             $995.24             $151.77            $31.75           $811.72
+
+06-5-60763  OLIVIER MESSIAEN            $23.02     75.25           $1,768.96             $269.77            $56.43         $1,442.76
+
+23-8-70322  DARIUS MILHAUD              $22.95     80.50           $1,826.23             $278.50            $58.26         $1,489.47
+
+04-9-66277  REBECCA CLARKE              $20.20     78.67           $1,798.57             $274.28            $57.37         $1,466.92
+
+02-3-24545  PETER CORNELIUS             $15.25     80.50           $1,702.75             $259.67            $54.32         $1,388.76
+
+13-4-56322  HANS WERNER HENZE           $19.00     80.75           $1,547.69             $236.02            $49.37         $1,262.30
+
+41-1-55233  GEORG BOHM                  $10.29     80.00           $1,045.97             $159.51            $33.37           $853.09
+
+01-1-65310  GERMAINE TAILLEFERRE        $22.00     80.00           $2,645.16             $403.39            $84.38         $2,157.39
+
+76-1-45023  WILHELM FURTWANGLER         $23.75     28.25             $707.64             $107.92            $22.57           $577.15
+
+23-8-14122  HANNS EISLER                $22.95     80.50           $1,826.23             $278.50            $58.26         $1,489.47
+
+04-9-54534  GEORG FRIEDRICH HANDEL      $20.20     78.67           $1,798.57             $274.28            $57.37         $1,466.92
+
+02-3-34245  CARL PHILIPP EMANUEL BACH   $15.25     80.50           $1,702.75             $259.67            $54.32         $1,388.76
+
+13-4-56322  LILI BOULANGER              $19.00     22.75             $445.69              $67.97            $14.22           $363.50
+
+34-0-32233  JOHANN PACHELBEL            $10.29     80.00           $1,045.97             $159.51            $33.37           $853.09
+
+06-4-65120  CARL ORFF                   $22.00     80.00           $2,645.16             $403.39            $84.38         $2,157.39
+
+                                                  NORTHERN ILLINOIS NATIONAL BANK                                         PAGE:    7
+                                                EMPLOYEE SEMI-MONTHLY PAYROLL REPORT                                                
+
+EMPLOYEE   EMPLOYEE                     HOURLY     HOURS            EMPLOYEE    EMPLOYEE FEDERAL    EMPLOYEE STATE          EMPLOYEE
+ID         NAME                            PAY    WORKED           GROSS PAY         WITHHOLDING       WITHHOLDING           NET PAY
+--------   -------------------------   -------   -------     ---------------     ---------------   ---------------   ---------------
+
+06-5-60023  FRANZ DANZI                 $23.75     28.25             $707.64             $107.92            $22.57           $577.15
+
+03-1-34142  JOCELYN POOK                $22.95     80.50           $1,826.23             $278.50            $58.26         $1,489.47
+
+04-9-66277  WILHELM BERGER              $20.20     78.67           $1,798.57             $274.28            $57.37         $1,466.92
+
+01-4-13245  JACQUES OFFENBACH           $15.25     80.50           $1,702.75             $259.67            $54.32         $1,388.76
+
+13-4-56322  PHAMIE GOW                  $19.00     80.75           $1,547.69             $236.02            $49.37         $1,262.30
+
+34-0-32233  WILHELM FRIEDEMANN BACH     $10.29     80.00           $1,045.97             $159.51            $33.37           $853.09
+
+16-4-65120  HEINRICH SCHUTZ             $22.00     80.00           $2,645.16             $403.39            $84.38         $2,157.39
+
+06-5-60023  GEORG PHILIPP TELEMANN      $23.75     28.25             $707.64             $107.92            $22.57           $577.15
+
+03-8-70322  HANS-JURGEN VON BOSE        $22.95     80.50           $1,826.23             $278.50            $58.26         $1,489.47
+
+94-9-66277  ANNE DUDLEY                 $20.20     78.67           $1,798.57             $274.28            $57.37         $1,466.92
+
+52-3-45245  PAUL DESSAU                 $15.25     80.50           $1,702.75             $259.67            $54.32         $1,388.76
+
+03-4-56322  FRIEDRICH BAUMFELDER        $19.00     80.75           $1,547.69             $236.02            $49.37         $1,262.30
+
+34-0-32233  JOHANN CHRISTIAN BACH       $10.29     40.00             $634.37              $96.74            $20.24           $517.39
+
+16-4-65120  RACHEL PORTMAN              $22.00     52.00           $2,029.16             $309.45            $64.73         $1,654.98
+
+76-5-60023  DEBBIE WISEMAN              $23.75     28.25             $707.64             $107.92            $22.57           $577.15
+
+                                                  NORTHERN ILLINOIS NATIONAL BANK                                         PAGE:    8
+                                                EMPLOYEE SEMI-MONTHLY PAYROLL REPORT                                                
+                                                          REPORT TOTALS                                                                
+
+                       NUMBER OF EMPLOYEES:             117                                                                                          
+
+                           GROSS PAY TOTAL:        $330,791.71                    AVERAGE GROSS PAY:       $2,827.28                                 
+ 
+                 FEDERAL WITHHOLDING TOTAL:         $50,445.77          AVERAGE FEDERAL WITHHOLDING:         $431.16                                 
+
+                   STATE WITHHOLDING TOTAL:         $10,552.26            AVERAGE STATE WITHHOLDING:          $90.19                                 
+
+                             NET PAY TOTAL:        $269,793.68                      AVERAGE NET PAY:       $2,305.93                                 

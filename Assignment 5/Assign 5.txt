@@ -1,0 +1,303 @@
+
+                    J E S 2  J O B  L O G  --  S Y S T E M  2 9 6 4  --  N O D E  S V S C J E S 2        
+
+  
+ 20.45.12 JOB08474 ---- FRIDAY,    09 JUL 2021 ----
+ 20.45.12 JOB08474  IRR010I  USERID KC03B25  IS ASSIGNED TO THIS JOB.
+ 20.45.12 JOB08474  ICH70001I KC03B25  LAST ACCESS AT 20:41:09 ON FRIDAY, JULY 9, 2021
+ 20.45.12 JOB08474  $HASP373 KC03B25A STARTED - INIT 2    - CLASS A        - SYS 2964
+ 20.45.13 JOB08474  $HASP395 KC03B25A ENDED - RC=0000
+
+ ------ JES2 JOB STATISTICS ------
+
+
+   09 JUL 2021 JOB EXECUTION DATE
+
+
+           161 CARDS READ
+
+
+           245 SYSOUT PRINT RECORDS
+
+
+             0 SYSOUT PUNCH RECORDS
+
+
+            24 SYSOUT SPOOL KBYTES
+
+
+          0.00 MINUTES EXECUTION TIME
+ !! END OF JES SPOOL FILE !!
+        1 //KC03B25A JOB ,'N. FLORES',MSGCLASS=H                                  JOB08474
+        2 //JSTEP01  EXEC PGM=ASSIST                                                      
+        3 //STEPLIB  DD DSN=KC00NIU.ASSIST.LOADLIB,DISP=SHR                               
+        4 //SYSPRINT DD SYSOUT=*                                                          
+        5 //SYSIN    DD *                                                                 
+          //*                                                                             
+          //* THE FOLLOWING IS THE INPUT DATA SET                                         
+          //*                                                                             
+        6 //FT05F001 DD DSN=KC02322.CSCI360.DATASU21(DATA5),DISP=SHR                      
+          //*                                                                             
+          //* THE FOLLOWING IS THE OUTPUT DATA SET                                        
+          //*                                                                             
+        7 //FT06F001 DD SYSOUT=*                                                          
+          //*                                                                             
+        8 //                                                                              
+ !! END OF JES SPOOL FILE !!
+ ICH70001I KC03B25  LAST ACCESS AT 20:41:09 ON FRIDAY, JULY 9, 2021
+ IEFA111I KC03B25A IS USING THE FOLLOWING JOB RELATED SETTINGS:
+          SWA=ABOVE,TIOT SIZE=32K,DSENQSHR=DISALLOW,GDGBIAS=JOB
+ IEF236I ALLOC. FOR KC03B25A JSTEP01
+ IGD103I SMS ALLOCATED TO DDNAME STEPLIB
+ IEF237I JES2 ALLOCATED TO SYSPRINT
+ IEF237I JES2 ALLOCATED TO SYSIN
+ IGD103I SMS ALLOCATED TO DDNAME FT05F001
+ IEF237I JES2 ALLOCATED TO FT06F001
+ IEF142I KC03B25A JSTEP01 - STEP WAS EXECUTED - COND CODE 0000
+ IGD104I KC00NIU.ASSIST.LOADLIB                       RETAINED,  DDNAME=STEPLIB 
+ IEF285I   KC03B25.KC03B25A.JOB08474.D0000102.?         SYSOUT        
+ IEF285I   KC03B25.KC03B25A.JOB08474.D0000101.?         SYSIN         
+ IGD104I KC02322.CSCI360.DATASU21                     RETAINED,  DDNAME=FT05F001
+ IEF285I   KC03B25.KC03B25A.JOB08474.D0000103.?         SYSOUT        
+ IEF373I STEP/JSTEP01 /START 2021190.2045
+ IEF032I STEP/JSTEP01 /STOP  2021190.2045 
+         CPU:     0 HR  00 MIN  00.00 SEC    SRB:     0 HR  00 MIN  00.00 SEC    
+         VIRT:   584K  SYS:   248K  EXT:        0K  SYS:    11412K
+         ATB- REAL:                  1056K  SLOTS:                     0K
+              VIRT- ALLOC:      13M SHRD:       0M
+ IEF375I  JOB/KC03B25A/START 2021190.2045
+ IEF033I  JOB/KC03B25A/STOP  2021190.2045 
+         CPU:     0 HR  00 MIN  00.00 SEC    SRB:     0 HR  00 MIN  00.00 SEC    
+ !! END OF JES SPOOL FILE !!
+
+ *** ASSIST 4.0/A2-05/15/82  470/V7A/0:OS/VS2  INS=SDFP7/X=BGHO, CHECK/TRC/=1180, OPTS=CDKMPR FROM PENN ST*NIU COMPSCI*LT            
+
+                                                                                                                                     
+
+                                                                                                                PAGE    1            
+
+   LOC  OBJECT CODE    ADDR1 ADDR2  STMT   SOURCE STATEMENT                                                                          
+                                       1 *****************************************************************                           
+                                       2 *                                                               *                           
+                                       3 *  CSCI 360               ASSIGNMENT 5             SUMMER 2021  *                           
+                                       4 *                                                               *                           
+                                       5 *  DEVELOPER NAME: Noah Flores                                  *                           
+                                       6 *  DATE DUE:  07/12/2021                                        *                           
+                                       7 *                                                               *                           
+                                       8 * Read input file                                               *                           
+                                       9 * Then cal the gross pay, state and fed tax witholding.         *                           
+                                      10 * Then print out information for each employee on the print line*                           
+                                      11 * then show totals for each of the pays and taxes               *                           
+                                      12 *                                                               *                           
+                                      13 *****************************************************************                           
+ 000000                               14 PAYROLL  CSECT                                                                              
+ 000000                               15          USING PAYROLL,15     ESTABLISH ADDRESSABILITY ON REG 15                            
+                                      16 *                                                                                           
+ 000000 4120 0010            00010    17          LA    2,16           GET FED WITHHOLDING PERCENT INTO R2                           
+ 000004 4130 0004            00004    18          LA    3,4            GET STATE WITHHOLDING PERCENT INTO R3                         
+                                      19 *                                                                                           
+ 000008 1B88                          20          SR    8,8            EMPLOYEE COUNTER                                              
+ 00000A 1B99                          21          SR    9,9            GROSS PAY TOTAL                                               
+ 00000C 1BAA                          22          SR    10,10          FED TAX TOTAL                                                 
+ 00000E 1BBB                          23          SR    11,11          STATE TAX TOTAL                                               
+ 000010 1BCC                          24          SR    12,12          NET PAY TOTAL                                                 
+ 000012 E000 F40A 0050 0040A          25          XREAD BUFFER,80      GET FIRST EMPLOYEE RECORD                                     
+                                      26 *                                                                                           
+ 000018 4740 F0A6            000A6    27 LOOP     BC    B'0100',ENDLOOP   BRANCH TO ENDLOOP IF EOF                                   
+                                      28 *                                                                                           
+                                      29 *                                                                                           
+                                      30 *  HERE IS WHERE THE BODY OF YOUR LOOP WILL BE CODED                                        
+ 00001C 4180 8001            00001    31          LA    8,1(,8)                 LOAD 1 INTO REG 8 EMP COUNT                          
+ 000020 D218 F0F6 F40A 000F6 0040A    32          MVC OEMPNME(25),BUFFER        SET NAME                                             
+ 000026 D204 F0ED F423 000ED 00423    33          MVC OEMPID(5),BUFFER+25       SET EMP ID                                           
+ 00002C 5350 F429            00429    34          XDECI 5,BUFFER+31             READ AND STORE PAY                                   
+ 000030 5250 F113            00113    35          XDECO 5,OPAYRATE              SET PAYRATE                                          
+ 000034 5360 F42C            0042C    36          XDECI 6,BUFFER+34             READ AND STORE HOURS                                 
+ 000038 5260 F123            00123    37          XDECO 6,OHOURS                SET HOURS                                            
+ 00003C 1C46                          38          MR    4,6                     MULTI REG 4,6                                        
+ 00003E 5340 F42F            0042F    39          XDECI 4,BUFFER+37             READ AND STORE DEDUCTION                             
+ 000042 5360 F432            00432    40          XDECI 6,BUFFER+40             READ AND STORE BOUNS                                 
+ 000046 1A56                          41          AR    5,6                     ADD REG 5 INTO 6                                     
+ 000048 1B54                          42          SR    5,4                     SUBTRACT REG 4 FROM 5                                
+ 00004A 5250 F133            00133    43          XDECO 5,OGROSS                SET GROSS PAY                                        
+ 00004E 1A95                          44          AR    9,5                     ADD GROSS PAY TO TOTAL REG 9                         
+ 000050 5050 F0E0            000E0    45          ST    5,TGROSS                STORE GROSSPAY                                       
+ 000054 1865                          46          LR    6,5                     MOVE GROSSPAY INTO REG6                              
+ 000056 1853                          47          LR    5,3                     MOVE STATETAX INTO REG 5                             
+ 000058 1C46                          48          MR    4,6                     MULTI REG 4,6                                        
+ 00005A 4160 0064            00064    49          LA    6,100                   LOAD 100 INTO REG 6                                  
+ 00005E 1D46                          50          DR    4,6                     DIV REG 4,6                                          
+ 000060 5250 F154            00154    51          XDECO 5,OSTWH                 SET STATETAXES                                       
+ 000064 1AB5                          52          AR    11,5                    ADD STATE INTO TOTAL REG 10                          
+
+                                                                                                                PAGE    2            
+
+   LOC  OBJECT CODE    ADDR1 ADDR2  STMT   SOURCE STATEMENT                                                                          
+ 000066 5050 F0E4            000E4    53          ST    5,TSTATE                STORE STATETAX                                       
+ 00006A 5860 F0E0            000E0    54          L     6,TGROSS                LOAD GROSSPAY INTO REG 6                             
+ 00006E 1852                          55          LR    5,2                     LOAD REG 2 INTO 5                                    
+ 000070 1C46                          56          MR    4,6                     MULTI REG 4,6                                        
+ 000072 4160 0064            00064    57          LA    6,100                   LOAD 100 INTO REG 6                                  
+ 000076 1D46                          58          DR    4,6                     DIV REG 4,6                                          
+ 000078 5250 F143            00143    59          XDECO 5,OFEDWH                SET FED TAX                                          
+ 00007C 1AA5                          60          AR    10,5                    ADD STATE INTO TOTAL REG 11                          
+ 00007E 5050 F0E8            000E8    61          ST    5,TFED                  STORE FED TAX                                        
+ 000082 5850 F0E0            000E0    62          L     5,TGROSS                LOAD GROSSPAY INTO REG 5                             
+ 000086 5860 F0E8            000E8    63          L     6,TFED                  LOAD FED TAX INTO REG 6                              
+ 00008A 1B56                          64          SR    5,6                     SUBTRACT REG 6 FROM 5                                
+ 00008C 5860 F0E4            000E4    65          L     6,TSTATE                LOAD STATE TAX INTO REG 6                            
+ 000090 1B56                          66          SR    5,6                     SUBTRACT REG 6 FROM 5                                
+ 000092 5250 F165            00165    67          XDECO 5,ONETPAY               SET NET PAY                                          
+                                      68 *                                                                                           
+                                      69 *                                                                                           
+ 000096 E020 F0EC 0085 000EC          70          XPRNT DETAIL,133     PRINT THE EMPLOYEE DETAIL RECORD                              
+                                      71 *                                                                                           
+ 00009C E000 F40A 0050 0040A          72          XREAD BUFFER,80      READ NEXT EMPLOYEE RECORD                                     
+                                      73 *                                                                                           
+ 0000A2 47F0 F018            00018    74          B     LOOP           BRANCH TO TOP OF LOOP TO CHECK EOF                            
+                                      75 *                                                                                           
+ 0000A6                               76 ENDLOOP  DS    0H                                                                           
+                                      77 *                                                                                           
+ 0000A6 18C9                          78          LR    12,9          LOAD REG 9 GROSSPAY INTO 12 NET                                
+ 0000A8 1BCA                          79          SR    12,10         SUB REG 10 FED TAX FROM 12 NET                                 
+ 0000AA 1BCB                          80          SR    12,11         SUB REG 11 STATE TAX FROM 12 NET                               
+ 0000AC 5280 F18C            0018C    81          XDECO 8,TOTALEMP    SET EMP COUNT                                                  
+ 0000B0 5290 F211            00211    82          XDECO 9,TOTALGP     SET TOTAL GROSS PAY                                            
+ 0000B4 52A0 F296            00296    83          XDECO 10,TOTALFT    SET TOTAL FED TAX                                              
+ 0000B8 52B0 F31B            0031B    84          XDECO 11,TOTALST    SET TOTAL STATE TAX                                            
+ 0000BC 52C0 F3A0            003A0    85          XDECO 12,TOTALNP    SET TOTAL NET PAY                                              
+ 0000C0 E020 F171 0085 00171          86          XPRNT TOTALS1,133   PRINT EMP COUNT                                                
+ 0000C6 E020 F1F6 0085 001F6          87          XPRNT TOTALS2,133   PRINT TOTAL GROSS PAY                                          
+ 0000CC E020 F27B 0085 0027B          88          XPRNT TOTALS3,133   PRINT FED TAX                                                  
+ 0000D2 E020 F300 0085 00300          89          XPRNT TOTALS4,133   PRINT STATE TAX                                                
+ 0000D8 E020 F385 0085 00385          90          XPRNT TOTALS5,133   PRINT NET PAY                                                  
+                                      91 *                                                                                           
+ 0000DE 07FE                          92          BR    14             UNCONDITIONAL RETURN TO CALLER                                
+                                      93 *                                                                                           
+                                      94          LTORG        LITERAL ORGANIZATION                                                  
+                                      95 *                                                                                           
+                                      96 * THE FOLLOWING 16 LINES ARE THE DEFINITION FOR THE OUTPUT DETAIL                           
+                                      97 *   LINE FOR EACH EMPLOYEE FOR THE REPORT YOU ARE CREATING.  IT                             
+                                      98 *   IS EXACTLY 133 BYTES LONG.  EACH OUTPUT FIELD IS SEPARATED                              
+                                      99 *   BY 4 OR 5 BYTES OF EBCDIC SPACES.                                                       
+                                     100 *                                                                                           
+ 0000E0                              101 TGROSS   DS    F      TEMP GROSS PAY                                                        
+ 0000E4                              102 TSTATE   DS    F      TEMP STATE TAX                                                        
+ 0000E8                              103 TFED     DS    F      TEMP FED TAX                                                          
+ 0000EC F0                           104 DETAIL   DC    C'0'   CARRIAGE CONTROL CHARACTER                                            
+ 0000ED                              105 OEMPID   DS    CL5    OUTPUT FIELD FOR EMPLOYEE ID                                          
+ 0000F2 40404040                     106          DC    4C' '  SPACES                                                                
+ 0000F6                              107 OEMPNME  DS    CL25   OUTPUT FIELD FOR EMPLOYEE NAME                                        
+ 00010F 40404040                     108          DC    4C' '  SPACES                                                                
+ 000113                              109 OPAYRATE DS    CL12   OUTPUT FIELD FOR XDECO OF EMPLOYEE PAY RATE                           
+
+                                                                                                                PAGE    3            
+
+   LOC  OBJECT CODE    ADDR1 ADDR2  STMT   SOURCE STATEMENT                                                                          
+ 00011F 40404040                     110          DC    4C' '  SPACES                                                                
+ 000123                              111 OHOURS   DS    CL12   OUTPUT FIELD FOR XDECO OF EMPLOYEE HOURS WORKED                       
+ 00012F 40404040                     112          DC    4C' '  SPACES                                                                
+ 000133                              113 OGROSS   DS    CL12   OUTPUT FIELD FOR XDECO OF EMPLOYEE GROSS PAY AMT                      
+ 00013F 40404040                     114          DC    4C' '  SPACES                                                                
+ 000143                              115 OFEDWH   DS    CL12   OUTPUT FIELD FOR XDECO OF FEDERAL WITHHOLDING AMT                     
+ 00014F 4040404040                   116          DC    5C' '  SPACES                                                                
+ 000154                              117 OSTWH    DS    CL12   OUTPUT FIELD FOR XDECO OF STATE WITHHOLDING AMT                       
+ 000160 4040404040                   118          DC    5C' '  SPACES                                                                
+ 000165                              119 ONETPAY  DS    CL12   OUTPUT FIELD FOR XDECO OF EMPLOYEE NET PAY AMT                        
+ 000171 F0                           120 TOTALS1  DC    C'0'   CARRIAGE CONTROL CHARACTER                                            
+ 000172 404040404040D5E4             121          DC    C'      NUMBER OF EMPLOYEES:'  SPACES                                        
+ 00018C                              122 TOTALEMP DS    CL12   OUTPUT FIELD FOR XDECO OF EMPLOYEE COUNT AMT                          
+ 000198 4040404040404040             123          DC    94C' ' SPACE                                                                 
+ 0001F6 F0                           124 TOTALS2  DC    C'0'   CARRIAGE CONTROL CHARACTER                                            
+ 0001F7 4040404040404040             125          DC    C'          TOTAL GROSS PAY:'  SPACES                                        
+ 000211                              126 TOTALGP  DS    CL12   OUTPUT FIELD FOR XDECO OF TOTAL GROSS PAY AMT                         
+ 00021D 4040404040404040             127          DC    94C' ' SPACE                                                                 
+ 00027B F0                           128 TOTALS3  DC    C'0'   CARRIAGE CONTROL CHARACTER                                            
+ 00027C E3D6E3C1D340C6C5             129          DC    C'TOTAL FEDERAL WITHHOLDING:'  SPACES                                        
+ 000296                              130 TOTALFT  DS    CL12   OUTPUT FIELD FOR XDECO OF TOTAL FED TAX AMT                           
+ 0002A2 4040404040404040             131          DC    94C' ' SPACE                                                                 
+ 000300 F0                           132 TOTALS4  DC    C'0'   CARRIAGE CONTROL CHARACTER                                            
+ 000301 4040E3D6E3C1D340             133          DC    C'  TOTAL STATE WITHHOLDING:'  SPACES                                        
+ 00031B                              134 TOTALST  DS    CL12   OUTPUT FIELD FOR XDECO OF TOTAL STATE TAX AMT                         
+ 000327 4040404040404040             135          DC    94C' ' SPACE                                                                 
+ 000385 F0                           136 TOTALS5  DC    C'0'   CARRIAGE CONTROL CHARACTER                                            
+ 000386 4040404040404040             137          DC    C'            TOTAL NET PAY:'  SPACES                                        
+ 0003A0                              138 TOTALNP  DS    CL12   OUTPUT FIELD FOR XDECO OF TOTAL NET PAY AMT                           
+ 0003AC 4040404040404040             139          DC    94C' ' SPACE                                                                 
+                                     140 *                                                                                           
+                                     141 *  THE FOLLOWING IS THE INPUT RECORD BUFFER                                                 
+                                     142 *                                                                                           
+ 00040A                              143 BUFFER   DS    CL80   BUFFER FOR EMPLOYEE RECORD READ FROM INPUT FILE                       
+                                     144 *                                                                                           
+                                     145          END   PAYROLL                                                                      
+
+ ***  NO   STATEMENTS FLAGGED -  NO   WARNINGS,  NO   ERRORS                                                                         
+
+ *** DYNAMIC CORE AREA USED:  LOW:    8088 HIGH:     840 LEAVING:  484640 FREE BYTES. AVERAGE:       61 BYTES/STMT ***               
+
+ *** ASSEMBLY TIME =    0.000 SECS,   146000 STATEMENTS/SEC ***                                                                      
+
+ *** PROGRAM EXECUTION BEGINNING - ANY OUTPUT BEFORE EXECUTION TIME MESSAGE IS PRODUCED BY USER PROGRAM ***                          
+
+ 12345    WOLFGANG AMADEUS MOZART                15              80            1675             268               67             1340
+
+ 23456    RICHARD STRAUSS                        19              80            1530             244               61             1225
+
+ 22132    AMY BEACH                              10              80             969             155               38              776
+
+ 65465    DAME ETHEL SMYTHE                      22              80            2645             423              105             2117
+
+ 44560    PETER ILYICH TCHAIKOVSKY               23              28             680             108               27              545
+
+ 99870    ANTON BRUCKNER                         22              80            1739             278               69             1392
+
+ 13345    LUDWIG VAN BEETHOVEN                   15              80            1675             268               67             1340
+
+ 24456    JOHANNES BRAHMS                        19              80            1530             244               61             1225
+
+ 22532    BELA BARTOK                            10              80             969             155               38              776
+
+ 11465    MAX REGER                              22              80            2645             423              105             2117
+
+ 13360    SAMUEL BARBER                          23              28             680             108               27              545
+
+ 99873    GIUSEPPE VERDI                         22              80            1739             278               69             1392
+
+ 12342    JOHANN SEBASTIAN BACH                  15              80            1675             268               67             1340
+
+ 23452    JOSEPH HAYDN                           19              80            1530             244               61             1225
+
+ 22131    GEORG FRIEDRICH HANDEL                 10              80             969             155               38              776
+
+ 65411    EDWARD ELGAR                           22              80            2645             423              105             2117
+
+ 44378    NIKOLAI RIMSKY-KORSAKOV                23              28             680             108               27              545
+
+ 99855    CLAUDE DEBUSSY                         22              80            1739             278               69             1392
+
+ 13346    ANTONIN DVORAK                         15              80            1675             268               67             1340
+
+ 24457    THOMAS TALLIS                          19              80            1530             244               61             1225
+
+ 22538    RALPH VAUGHAN WILLIAMS                 10              80             969             155               38              776
+
+ 11477    RICHARD WAGNER                         22              80            2645             423              105             2117
+
+ 17777    FREDERIC CHOPIN                        23              28             680             108               27              545
+
+ 99211    JOAN TOWER                             22              80            1739             278               69             1392
+
+       NUMBER OF EMPLOYEES:          24                                                                                              
+
+           TOTAL GROSS PAY:       36952                                                                                              
+
+ TOTAL FEDERAL WITHHOLDING:        5904                                                                                              
+
+   TOTAL STATE WITHHOLDING:        1468                                                                                              
+
+             TOTAL NET PAY:       29580                                                                                              
+
+ *** EXECUTION TIME =    0.000 SECS.      1007 INSTRUCTIONS EXECUTED -  1007000 INSTRUCTIONS/SEC ***                                 
+
+ *** AM004 - NORMAL USER TERMINATION BY RETURN ***                                                                                   
+ !! END OF JES SPOOL FILE !!

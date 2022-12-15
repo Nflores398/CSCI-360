@@ -1,0 +1,115 @@
+																			Noah Flores
+																			CSCI 360
+																			Summer 2021
+																			6/21/21
+1.	Convert the following unsigned binary numbers to their decimal representations:  (8 points)
+
+    a.  110
+		6
+		
+    b.  1101
+		7
+	
+    c.  1101011
+		107
+	
+    d.  0101
+		5
+		
+2.	Convert the following unsigned hexadecimal numbers to their decimal representations:  (8 points)
+   
+    a.  14
+		20
+		
+    b.  C1
+		193
+	
+    c.  CE9
+		3305
+		
+    d.  B19
+		2841
+	
+3.	Convert the following unsigned decimal numbers to both hex and binary representations:  (8 points)
+ 
+    a.  14
+	HEX:E
+	BIN:1110
+	
+    b.  456
+	HEX:1C8
+	BIN:111001000
+	
+    c.  48
+	HEX:30
+	BIN:110000
+	
+    d.  4095
+	HEX:FFF
+	BIN:111111111111
+	
+4.	Do the following unsigned binary arithmetic giving the answer in binary:  (8 points)
+ 
+    a.  10110
+	   +01101
+	   100011	
+	   
+    b.  11001
+	   +00101
+	    11110
+	
+    c.  10110
+	   -01111
+          111	   
+	   
+    d.  11111
+	   -01101
+	    10010 
+		
+5.	Do the following unsigned hexadecimal arithmetic giving the answer in hexadecimal:  (8 points)
+ 
+    a.  829D
+	   +1A82
+	    9E1F
+	   
+    b.  E2C
+	   +A32
+	   185E
+	   
+    c.  FA28
+	   –3254
+	    C7D4
+	   
+	   
+    d.  E2C
+	   -AB1
+	    37B
+	
+6.	Do the following arithmetic as if these were five-bit signed representations and indicate if overflow occurs and, if so, why.
+ Note:  Remember that you want to add.  So, for signed subtraction, always convert the subtrahend (the number being subtracted) to its 2's complement and add it.
+ Do this whether or not the subtrahend is negative OR positive and still check for overflow!  (8 points)
+   
+       111      
+	a.  10110
+	  + 01101
+	    00011 
+	  NO OVERFLOW
+
+	   00  1
+    b.  11001
+	  + 00101
+        11110 
+		NO OVERFLOW	  
+       10	   
+    c.  10110
+	  + 10011
+	    01001
+		OVERFLOW
+	  
+       11	  
+    d.  11111
+   	  + 10101
+	   110100 
+		NO OVERFLOW	 
+
+	
